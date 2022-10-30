@@ -3,7 +3,7 @@
 <h3>網卡與SSH配置腳本-操作方法</h3>
 <br><br>
 
-# Ubuntu_group_ip.sh
+## Ubuntu_group_ip.sh
 1.ip_range填入IP的主機位置，共有8段(輸入站群IP表)(gateway)<br>
 2.ip_range[0] 與 ip_master  要同一段<br>
 3.ip_master填入主IP<br>
@@ -14,7 +14,7 @@
 8.如果部屬失敗，就要檢查vi /etc/netplan/裡面的資料有沒有正確<br>
 <br><br>
 
-# Ubuntu_multi_ip.sh
+## Ubuntu_multi_ip.sh
 1.ip_general[0]  填入要主IP<br>
 2.ip_general[1]~[n]  可以填入多組<br>
 3.netmask_pre,gateway,dns,nameserver<br>
@@ -23,7 +23,7 @@
 <br><br>
 
 
-# Debian_group_ip.sh
+## Debian_group_ip.sh
 1.ip_range填入IP的主機位置，共有8段(gateway)<br>
 2.ip_range[0] 與 ip_master  要同一段<br>
 3.ip_master填入主IP<br>
@@ -36,7 +36,7 @@
 **修改後網卡如果重啟一直跳出failed後修改可能會一直錯誤，重新開機即可
 <br><br>
 
-# Debian_multi_ip.sh
+## Debian_multi_ip.sh
 1.ip_general[0]  填入要主IP<br>
 2.ip_general[1]~[n]  可以填入多組<br>
 3.netmask,gateway,dns,<br>
@@ -46,7 +46,7 @@
 **修改後網卡如果重啟一直跳出failed後修改可能會一直錯誤，重新開機即可
 <br><br>
 
-# Centos7_group_ip.sh
+## Centos7_group_ip.sh
 1.ip_range填入IP的主機位置，共有8段(gateway)<br>
 2.ip_range[0] 與 ip_master  要同一段<br> 
 3.ip_master填入主IP   <br>
